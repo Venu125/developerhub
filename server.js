@@ -8,7 +8,7 @@ const reviewmodel = require('./reviewmodel');
 const cors = require('cors');
 app.use(express.json());
 
-mongoose.connect("mongodb+srv://Venu:Mongodb%40256210@cluster0.l6ink.mongodb.net/?retryWrites=true&w=majority",
+mongoose.connect("mongodb+srv://Username:passwordwithhashcode@cluster0.l6ink.mongodb.net/?retryWrites=true&w=majority",
 )
         .then(()=>console.log('DB connected')
 )
